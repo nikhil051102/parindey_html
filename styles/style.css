@@ -1,0 +1,422 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 0%;
+}
+
+p{
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+code {
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* Navbar  */
+
+#navbar_container {
+  position: relative;
+}
+.navbar {
+  box-shadow:0px 0px 50px -6px black;
+  position: absolute;
+  border-radius: 10px;
+  position: fixed;
+  top: 1%;
+  left: 1.5%;
+  right: 1.5%;
+}
+
+#navbarSupportedContent {
+  margin-left: auto;
+}
+
+
+
+/* Home Page  */
+.bg-image {
+  width: 100%;
+  height: 100vh;
+  background: url('../images/bg_image.jpg') top center;
+  background-size: cover;
+  position: absolute;
+}
+
+#child_div {
+  color: white;
+  width: 100vw;
+  position: relative;
+  top: 18%;
+}
+
+#heading {
+  position: relative;
+  font-family:'Kaushan Script', cursive;;
+  font-size: 90px;
+  bottom: 9%;
+}
+
+#heading:hover{
+  text-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+#tagline {
+  padding-top: 20%;
+  padding-bottom: 2%;
+}
+
+#description {
+  padding-bottom: 4.5%;
+}
+
+@media screen and (max-width: 600px){
+  #heading {
+    font-size: 45px;
+    padding-top: 2%;
+  }
+  #tagline {
+    padding-top: 70%;
+  }
+  #description {
+    padding-top: 8%;
+  }
+  #explore_button {
+    margin-top: 10%;
+  }
+  #itinerary_heading {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* Explore Button CSS  */
+#explore_button{
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font-weight: 600;
+  border-radius: 18px;
+  box-shadow: 0px 0px  12px aliceblue;
+  padding: 10px 10px;
+}
+#explore_button:hover{
+  background-color: #28363D;
+  color: white;
+  box-shadow: 0px 0px  12px rgb(0, 0, 0);
+}
+
+
+
+
+/* Explore Page  */
+#explore_div {
+  margin-top: 4rem;
+}
+
+#itinerary_heading {
+  font-size: 2rem;
+}
+
+#card {
+  width: 20rem;
+  box-shadow:0px 6px 22px -5px black;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  box-shadow: 0px 5px 30px black;
+  margin-top: -20px;
+}
+
+.card-body {
+  padding-top: 30px;
+}
+
+#card_button {
+  background-color: #2f575d;
+  color: white;
+  border-radius: 18px;
+}
+
+
+/* Itinerary Page  */
+#itinerary_card {
+  width: 18rem;
+}
+
+.itinerary_image1 {
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+  background: url(/images/itinerary2.webp) top center;
+  background-size: cover;
+}
+
+.itinerary_image2 {
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+  background: url(/images/itinerary1.webp) top center;
+  background-size: cover;
+}
+
+.itinerary_image3 {
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+  background: url(/images/itinerary3.webp) top center;
+  background-size: cover;
+}
+
+.itinerary_lower1 {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  background: url(/images/i1.svg) top center;
+  background-size: cover;
+}
+
+.itinerary_lower2 {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  background: url(/images//i2.svg) top center;
+  background-size: cover;
+}
+
+.itinerary_lower3 {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+  background: url(/images/i3.svg) top center;
+  background-size: cover;
+}
+
+#name {
+  font-family: "Kaushan Script", cursive;
+  position: absolute;
+  color: white;
+  font-size: 70px;
+  width: 100vw;
+  text-align: center;
+  top: 14%;
+}
+
+#itinerary_date {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  width: 100vw;
+  top: 43%;
+}
+
+#itinerary_route {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  width: 100vw;
+  top: 36%;
+}
+
+#book_button {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  top: 78%;
+}
+
+#itinerary_highlights {
+  position: absolute;
+  font-size: 17px;
+  width: 100vw;
+  text-align: center;
+  color: white;
+  top: 90%;
+}
+
+#booknow_button {
+  border-radius: 12px;
+  border: 2px black;
+  box-shadow: 0px 0px 12px 2px #c4cdc1;
+  background-color: #dee1dd;
+  color: #28363d;
+  font-size: 100%;
+}
+
+#booknow_button:hover {
+  background-color: #28363d;
+  color: #dee1dd;
+  box-shadow: 0px 0px 10px 2px black;
+  border: 0px;
+}
+
+
+
+/* About Us Page */
+
+ #about-div {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  background: top center;
+  background: url(../images/about_bg_image.jpg) top center;
+  /* background-size: cover; */
+  position: absolute;
+  top: 6rem; 
+} 
+
+ #about-child-div {
+  width: 65%;
+} 
+
+#about-main-image {
+  width: 30rem;
+  box-shadow: 0px 10px 15px Black;
+}
+
+@media screen and (max-width: 600px) {
+  #about-main-image {
+    width: 22rem;
+  }
+}  
+
+#testimonial{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+
+
+
+/* Contact Us  */
+#contact {
+  margin-top: 8rem;
+}
+
+.btn-contact-bg {
+  border-radius: 30px;
+  color: #fff;
+  outline: medium none !important;
+  padding: 15px 27px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background: #2f575d;
+  font-family: "poppins", sans-serif;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-contact-bg:hover,
+.btn-contact-bg:focus {
+  background: #28363d;
+  color: #fff;
+}
+
+.single_address {
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .single_address {
+    padding-left: 0px;
+  }
+}
+
+.single_address i {
+  background: #f6f6f6;
+  color: #2f575d;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  float: left;
+  margin-right: 14px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.single_address:hover i {
+  background: #28363d;
+  color: #fff;
+}
+
+.single_address h4 {
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 18px;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.single_address p {
+  overflow: hidden;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.section-title h1 {
+  font-size: 44px;
+  font-weight: 500;
+  margin-top: 0;
+  position: relative;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.section-title p {
+  padding: 0 10px;
+  width: 70%;
+  margin: auto;
+  letter-spacing: 1px;
+}
+.section-title {
+  margin-bottom: 60px;
+}
+.text-center {
+  text-align: center !important;
+}
+
+
+
+/* Book Now Page  */
+/* #enquiry_bg_image {
+  width: 100vh;
+  height: 100vh;
+  background: url(./images/Enquiry_bg.svg);
+  background-size: cover;
+} */
+
+#enquiry_div {
+  height: 100%;
+  position: absolute;
+}
+
+#enquiry_card {
+  color: white;
+  /* border-radius: 3.5rem; */
+  background-color: #28363d;
+  position: relative;
+}
+
+#explore_footer p{
+  font-size: 0.8rem;
+}
+
+
+
